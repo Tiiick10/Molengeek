@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #363b47;
+    color: white;
+    padding: 10px 20px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    p {
+      margin-left: 150px;
+      font-size: 25px;
+    }
+
+    .cont {
+      margin-right: 150px;
+    }
+  
+    a {
+      color: rgba(163, 163, 163, 0.711);
+      text-decoration: none;
+      margin: 0 25px;
+  
+      &:hover {
+        color: white;
+        background-color: blue;
+      }
+    }
+}

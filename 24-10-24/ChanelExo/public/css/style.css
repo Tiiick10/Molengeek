@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Chanel";
+    src: url(../font/couture-bld.otf);
+  }
+
+body {
+    font-family: "Chanel";
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.product-image img {
+    max-width: 75%;
+    height: auto;
+    margin-right: 100px;
+}
+
+.product-details {
+    margin-top: 150px;
+    max-width: 50%;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+#Ref{
+    color: #899499;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 5px solid #000;
+    margin-bottom: 20px;
+}
+
+#gris{
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+button {
+    font-size: 2em;
+    background: black;
+    color: #fff;
+    border: 0.25rem solid black;
+    padding: 0.85em 0.75em;
+    margin: 1rem;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  button:hover {
+    color: gray;
+  }
+
+  button::after {
+    content: "";
+    background: #ecf0f1;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+  }
+
+  button[class^="slide"]::after {
+    transition: all 0.35s;
+  }
+
+  button[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+  }
+  
+  button.slide_from_left::after {
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+  }

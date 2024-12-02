@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="shortcut icon" type="x-icon" href="./public/img/favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="scrolltop"></div>
+        <div class="container">
+            <h1>START CSS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <img src="./public/img/avataaars.svg" alt="Avatar" class="avatar">
+            <h2>START CSS</h2>
+            <p>Graphic Artist • Web Designer • Illustrator</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>PORTFOLIO</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item"><img src="./public/img/portfolio/cabin.png" alt="Icon 1"></div>
+                <div class="portfolio-item"><img src="./public/img/portfolio/cake.png" alt="Icon 2"></div>
+                <div class="portfolio-item"><img src="./public/img/portfolio/circus.png" alt="Icon 3"></div>
+                <div class="portfolio-item"><img src="./public/img/portfolio/game.png" alt="Icon 4"></div>
+                <div class="portfolio-item"><img src="./public/img/portfolio/safe.png" alt="Icon 5"></div>
+                <div class="portfolio-item"><img src="./public/img/portfolio/submarine.png" alt="Icon 6"></div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container about-section">
+            <h2>ABOUT</h2>
+            <div class="about-columns">
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>CONTACT ME</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <p class="inputForm">Name</p>
+                    <input type="text" name="name" placeholder="" required>
+                    <p class="inputForm">Email Address</p>
+                    <input type="email" name="email" placeholder="" required>
+                    <p class="inputForm">Phone Number</p>
+                    <input type="tel" name="phone" placeholder="" required>
+                    <p class="inputForm">Message</p>
+                    <textarea name="message" placeholder="" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <a href="#scrolltop">
+            <div class="scroll-arrow"></div>
+            <div id="scroll-text">top</div>
+        </a>
+        <div class="container">
+            <div class="footer-column">
+                <h3>LOCATION</h3>
+                <p>2215 John Daniel Drive<br>Clark, MO 65243</p>
+            </div>
+            <div class="footer-column">
+                <h3>AROUND THE WEB</h3>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>ABOUT FREELANCER</h3>
+                <p>Freelancer is a free to use, MIT licensed Bootstrap theme created by <a href="https://getbootstrap.com/docs/5.3/getting-started/download/" class="boots" target="_blank">Start Bootstrap.</a></p>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer-copyright">
+        <p>Copyright © Your Website 2020</p>
+    </footer>
+    
+</body>
+</html>

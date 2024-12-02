@@ -1,0 +1,215 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+.navbar {
+  background-color: #363b47;
+  color: white;
+  padding: 10px 20px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.navbar p {
+  margin-left: 150px;
+  font-size: 25px;
+}
+.navbar .cont {
+  margin-right: 150px;
+}
+.navbar a {
+  color: rgba(163, 163, 163, 0.711);
+  text-decoration: none;
+  margin: 0 25px;
+}
+.navbar a:hover {
+  color: white;
+  background-color: blue;
+}
+
+header img {
+  width: 100%;
+  height: 450px;
+  gap: 0;
+}
+
+.hero {
+  background: #e8e6e0;
+  color: #7a8a9f;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.hero .bleuBlanc {
+  background-color: #26a2cc;
+  color: white;
+}
+.hero .text-blue {
+  color: #26a2cc;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+.services .card {
+  background: #e2e0e0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 20%;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.services .card h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.services .card h5 {
+  margin: 15px 0 10px;
+}
+.services .card p {
+  color: #666;
+  margin-top: 15px;
+}
+.services .card .nerds {
+  color: #26a2cc;
+}
+
+.recent-work {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-right: 220px;
+  max-width: 30%;
+  margin-left: 10px;
+}
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #777;
+}
+
+.view-portfolio {
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.view-portfolio:hover {
+  background-color: #1c86e0;
+}
+
+.projects {
+  display: flex;
+  gap: 10px;
+}
+
+.project {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  flex: 1;
+  max-width: 25%;
+}
+.project img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.project h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.project p {
+  font-size: 14px;
+  color: #ccc;
+  padding: 10px;
+}
+
+.getIn {
+  background: #3676bb;
+  color: white;
+  text-align: center;
+  height: 250px;
+}
+.getIn h1 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  letter-spacing: 0.3rem;
+  font-size: 20px;
+}
+.getIn p {
+  line-height: 2rem;
+}
+
+.footer {
+  background: #333;
+  color: #7a8a9f;
+  padding: 20px 20px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

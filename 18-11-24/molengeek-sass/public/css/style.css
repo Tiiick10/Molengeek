@@ -1,0 +1,232 @@
+@font-face {
+  font-family: MolenGeek;
+  src: url(../fonts/MolenGeek/Fontspring-DEMO-volte-regular.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: MolenGeek;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header-bar {
+  background-color: #9933cc;
+  color: #eee;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+#connect {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  text-decoration: none;
+  color: white;
+}
+#connect:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0px;
+  height: 2px;
+  left: 50%;
+  background-color: white;
+  transition: 300ms;
+}
+#connect:hover:before {
+  width: 100%;
+  left: 0;
+}
+#connect:hover:after {
+  width: 100%;
+}
+
+#proute {
+  top: 0px;
+  left: 10px;
+  width: 3%;
+  height: 5%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+::-moz-placeholder {
+  font-style: italic;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.header-bar input[type=email] {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+.header-bar button {
+  padding: 5px 10px;
+  background-color: green;
+  color: #eee;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.intro {
+  padding: 10px;
+  max-width: 80%;
+  margin: auto;
+}
+
+#Titre1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.UnderT1 {
+  width: 3%;
+  display: flex;
+  margin: auto;
+  border-color: #9933cc;
+}
+
+.content {
+  padding: 10px;
+  max-width: 80%;
+  margin: auto;
+}
+.content h2 {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+li::marker {
+  color: #9933cc;
+}
+
+.aille {
+  margin-left: 20px;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 75px;
+}
+
+.logoborder {
+  border-right: 1px solid grey;
+  height: 100px;
+}
+
+.logoborder2 {
+  border-right: 1px solid grey;
+}
+
+table {
+  border: 1px solid grey;
+  width: 100%;
+  border-top: none;
+}
+
+.deco {
+  text-decoration: none;
+  color: black;
+}
+.deco:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+.deco:hover:after {
+  width: 100%;
+  margin: auto;
+}
+
+.hrreseaux {
+  border-color: grey;
+}
+
+.logobottom {
+  top: 0px;
+  left: 10px;
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  min-width: 150px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+.dropdown-menu li {
+  list-style-type: none;
+}
+.dropdown-menu li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

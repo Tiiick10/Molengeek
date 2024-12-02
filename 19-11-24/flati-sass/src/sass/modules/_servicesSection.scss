@@ -1,0 +1,36 @@
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  
+    .card {
+      background: #e2e0e0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 20%;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+
+      h4 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+      }
+  
+      h5 {
+        margin: 15px 0 10px;
+      }
+  
+      p {
+        color: #666;
+        margin-top: 15px;
+      }
+
+      .nerds {
+        color:#26a2cc;
+      }
+
+    }
+
+}

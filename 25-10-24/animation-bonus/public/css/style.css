@@ -1,0 +1,37 @@
+
+/* Début Exo 2 */
+
+p{
+  font-size: 24px;
+  color:#fff;
+}
+
+.container1{
+  display:flex;
+  gap:10px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  border: solid 2px #db3951; 
+  color: #00136c;
+  display:flex;
+  justify-content:center;
+  transition: rotate 1s ease-in-out;
+}
+
+.box:first-child:hover{
+  rotate: x 360deg;
+}
+
+.box:nth-child(2):hover{
+  rotate: y 360deg;
+}
+
+.box:last-child:hover{
+  rotate: z 360deg;
+}
+
+/* Fin Exo 2 */

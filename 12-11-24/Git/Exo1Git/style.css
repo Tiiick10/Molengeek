@@ -1,0 +1,164 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.header .sign-in {
+    background-color: #ff5f5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #007bff;
+    color: white;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 24px;
+}
+
+.hero-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero-content .search {
+    margin-top: 20px;
+}
+
+.hero-content .search input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.hero-content .search button {
+    padding: 10px;
+    background-color: #ff5f5f;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Features Section */
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+}
+
+.feature {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100px;
+}
+
+/* Trending Section */
+
+.trending, .most-played, .categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.trending h3, .most-played h3, .categories h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.game-list, .category-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.game, .category {
+    text-align: center;
+    padding: 10px;
+}
+
+.game img, .category img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Promo Section */
+
+.promo {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.promo-box {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.promo-box button {
+    background-color: #ff5f5f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}

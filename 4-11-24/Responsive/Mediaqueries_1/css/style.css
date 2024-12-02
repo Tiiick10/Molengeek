@@ -1,0 +1,105 @@
+nav ul{
+    display:flex;
+    justify-content: space-around; 
+    list-style-type: none;
+}
+
+/* Exo 1 */
+
+@media (min-width: 1250px) {
+    .ex1li1{
+        color: blue;
+    }
+
+    .ex1li2{
+        color:green
+    }
+}
+
+/* Exo 2 */
+
+@media (max-width:1250px){
+    .ex2li1{
+        color: orange;
+    }
+
+    .ex2li2{
+        color: red;
+    }
+}
+
+/* Exo 3 */
+
+@media (max-width: 1000px){
+    .ex3li1{
+        font-weight: bold;
+        text-decoration: underline;
+    }   
+}
+@media (min-width: 1250px){
+    .ex3li2{
+        color: blue;
+        font-style: italic;
+    }
+}
+
+/* Exo 4 */
+
+@media (max-width: 800px), (min-width: 900px){
+    .Exo4Li {
+        border: 1px solid black;
+        color:green;
+    }
+}
+
+/* Exo 5 */
+
+@media (max-width: 900px) and (min-width: 1250px){
+    .Exo5etLi{
+        border: 1px solid black;
+        color:red;
+    }
+}
+
+/* Exo 6 */
+
+#exo6{
+    background-image: url(../images/tartine.jpg);
+    width: 250px;
+    height: 250px;
+}
+
+@media (max-width: 900px){
+    #exo6{
+        background-image: url(../images/tartine.jpg);
+        width: 125px;
+        height: 125px;
+    }
+}
+
+/* Exo 7 */
+
+@media print {
+    h2, .Exo5etLi, .Exo4Li {
+        color: black;
+        background-image: none;
+    }
+}
+
+/* Exo 8 */
+
+@media (max-width: 425px){
+    a:hover {
+        color: orange;
+    }
+}
+
+@media (min-width: 1250px){
+    a {
+        font-size: larger;
+    }
+
+    a:hover {
+        color: green;
+    }
+}

@@ -1,0 +1,45 @@
+div {
+  animation: monmove 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: 2;
+}
+
+@keyframes mymove {
+  0% { left: 200px}
+  100% { left: 0}
+}
+
+@keyframes monmove {
+  0% {top:0 ; left:0;}
+  25% {top:0; left:20%; }
+  50% {top:20%; left:20%; }
+  75% {top:20%; left:0 }
+  100% {top:0; left: 0;}
+}
+
+
+div:hover {
+  animation-play-state: paused; 
+}
+
+#bounce-title {
+  display: inline-block;
+  font-size: 40px;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-15px);
+  }
+}

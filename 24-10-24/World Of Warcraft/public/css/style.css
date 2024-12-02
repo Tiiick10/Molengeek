@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1c24;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.carteg {
+    background-color: #282a36;
+    border-radius: 2px;
+    width: 45vh;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.carted {
+    background-color: #282a36;
+    border-radius: 2px;
+    width: 48vh;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.new-label {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+}
+
+.image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#image1 {
+    background-image: url('../img/WOW_11p0_TWW_EarlyAccessBanners_ProductAssetGallery-Logos-v1_1920x1080_enUS_JL01.png');
+}
+
+#image2 {
+    background-image: url('../img/WoW_12Months_ShopYearofAzeroth2024_BnetShop_BrowsingCard_1920x1080.png');
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 10px;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ffaa00;
+}
+
+.prix {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    position: sticky;
+}
+
+.savoirplus {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.savoirplus:hover {
+    text-decoration: underline;
+}
+
+.survol {
+  padding: 25px;
+  position: relative;
+  display: block;
+  transition-duration: 0.2s;
+}
+
+.survol:hover {
+    padding-top: 15px;
+
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoMac</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container"> 
+            <img src="./public/img/Color-McDonalds-Logo.png" alt="McDonald's Logo" class="logo"> 
+            <nav> 
+                <ul> 
+                    <li><a href="#">Notre menu</a></li>
+                    <li><a href="#">Expérience McDo</a></li>
+                    <li><a href="#">En famille</a></li>
+                    <li><a href="#">L'App McDo</a></li>
+                    <li><a href="#">Qualité</a></li>
+                    <li><a href="#">Notre engagement</a></li>
+                </ul> 
+            </nav> 
+            <div class="right-section"> 
+                <a href="#">Travailler chez McDo</a> 
+                <a href="#">A propos de nous</a> 
+                <a href="#">Contact</a> 
+                <a href="#"><img src="search-icon.png" alt="Recherche"></a> 
+                <a href="#"><img src="location-icon.png" alt="Trouvez votre restaurant"></a> 
+                <a href="#" class="order-button">Commandez maintenant</a> 
+                <a href="#">FR</a> 
+                </div> 
+            </div> 
+        </header>
+
+    <div class="carousel-container">
+        <input type="radio" name="carousel" id="slide1" checked>
+        <input type="radio" name="carousel" id="slide2">
+        <input type="radio" name="carousel" id="slide3">
+        <input type="radio" name="carousel" id="slide4">
+        <input type="radio" name="carousel" id="slide5">
+
+        <div class="carousel-slides">
+            <div class="carousel-slide" id="carousel-slide1">
+                <img src="./public/img/Mc Smart.jpg" alt="Slide 1">
+                <div class="carousel-content">
+                    <h2>Mc Smart</h2>
+                    <p>Découvrez notre nouveau Mc Smart, un choix intelligent pour tous.</p>
+                    <a href="#" class="btn">Plus d’information</a>
+                </div>
+            </div>
+            <div class="carousel-slide" id="carousel-slide2">
+                <img src="./public/img//Mario Kart.jpg" alt="Slide 2">
+                <div class="carousel-content">
+                    <h2>Mario Kart</h2>
+                    <p>Jouez avec Mario Kart dans nos restaurants et gagnez des récompenses.</p>
+                    <a href="#" class="btn">Plus d’information</a>
+                </div>
+            </div>
+            <div class="carousel-slide" id="carousel-slide3">
+                <img src="./public/img/CBO.jpg" alt="Slide 3">
+                <div class="carousel-content">
+                    <h2>Le CBO</h2>
+                    <p>Le classique CBO revient avec plus de saveurs.</p>
+                    <a href="#" class="btn">Plus d’information</a>
+                </div>
+            </div>
+            <div class="carousel-slide" id="carousel-slide4">
+                <img src="./public/img/Spicy Santiago.jpg" alt="Slide 4">
+                <div class="carousel-content">
+                    <h2>Spicy Santiago</h2>
+                    <p>Un burger épicé pour les amateurs de sensations fortes.</p>
+                    <a href="#" class="btn">Plus d’information</a>
+                </div>
+            </div>
+            <div class="carousel-slide" id="carousel-slide5">
+                <img src="./public/img/Maltesers.jpg" alt="Slide 5">
+                <div class="carousel-content">
+                    <h2>Maltesers McFlurry</h2>
+                    <p>Profitez du délicieux McFlurry Maltesers pour un dessert parfait.</p>
+                    <a href="#" class="btn">Plus d’information</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-indicators">
+            <label for="slide1" class="indicator"></label>
+            <label for="slide2" class="indicator"></label>
+            <label for="slide3" class="indicator"></label>
+            <label for="slide4" class="indicator"></label>
+            <label for="slide5" class="indicator"></label>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Restaurant Rapide. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 5;
+        const intervalTime = 3000;
+
+        setInterval(() => {
+            currentSlide = currentSlide < totalSlides ? currentSlide + 1 : 1;
+
+            document.getElementById(`slide${currentSlide}`).checked = true;
+        }, intervalTime);
+    </script>
+</body>
+</html>

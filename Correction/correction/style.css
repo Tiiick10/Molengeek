@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 75vh;
+}
+.carré{
+    width: 49.5%;
+    height: 75vh;
+
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: column;
+}
+.cont{
+    width: 100%;
+    height: 32.7%;
+    background-color: white;
+}
+.un{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+}
+.UnDeux{
+    width: 100%;
+    height: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.UnTrois{
+    width: 100%;
+    height: 32.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+
+p{
+    color: white;
+}
+.UnCinq{
+    width: 19.8%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deux{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+.trois{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a45{
+    height: 100%;
+    width: 49.5%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quatre{
+    display: flex;
+    justify-content: space-around;
+}
